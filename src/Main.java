@@ -13,8 +13,13 @@ public class Main {
                 " another" +
                 " still more.");
 
-        int anotherVariable=50;myVariable--;System.out.println("myVaribale = "+myVariable );
+        int anotherVariable = 50;
+        myVariable--;
+        System.out.println("myVaribale = " + myVariable);
 
+        if (myVariable == 0) {
+            System.out.println("It's now zero");
+        }
     }
 
 }
